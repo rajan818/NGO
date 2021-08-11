@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.media img
+{
+	height: 150px;
+}
+.media
+{
+	border:2px solid #eb9111;
+	margin-top: 20px;
+	
+}
+.hide2
+{ 
+	
+	display: none;
+	
+}
+.card1
+{
+	display: none;
+}
+
+@media (min-width: 1000px)
+{
+	.hide2{
+		display: block;
+       
+	       }
+	 .card1{
+	 	display: block;
+	 }      
+}
+
+.blockquote-footer p
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+.blockquote h3
+{
+	border-bottom: 1px solid #7b7976; 
+	border-bottom-width: 50%;
+	color: red;
+}
